@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url('https://www.solucioninformatica.cl/web/images/sliders/slider1.jpg'); background-size: 100%; background-repeat: no-repeat;">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SOING TEST</title>
+    <link rel="icon" type="image/x-icon" href="a.png">
+    <link rel="stylesheet" href="test/uikit-3.21.13/css/uikit.css" />
+
+</head>
+
+<body>
+    {% if error %}
+    <script>
+        alert("Nombre de usuario o contraseña incorrectos. //:v la papu señal");
+    </script>
+    {% endif %}
+
+    <p>
+    <form action="/login" method="post" style="display:grid; justify-content: center; color: black; background-color: rgb(25, 25, 211);margin: auto; max-width: 250px; padding: 50px 20px 50px 20px; border-radius: 25px; box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.705);">
+          
+            <img src="https://www.w3schools.com/cssref/img_tree.gif" style="max-height: 110px; margin: auto;">
+            <div> USUARIO </div>   
+            <input type="text" id="username" name="username" required>
+            <div> CONTRASEÑA </div>
+            <input type="password" id="passwd" name="passwd" required>
+            <div  style="padding: 20px;" >    
+            
+            <button type="submit" class="uk-button uk-button-default" style="background-color: grey;">Iniciar sesion</button>
+        
+    </form>    
+    </p>
+    
+    <a href="Productos.html" style="
+    position: relative;
+    top: 140px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #333333;">
+    IR A PAGINA DE INICIO
+  </a>
+
+</body>
+</html>

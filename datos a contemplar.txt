@@ -1,0 +1,12 @@
+en este caso usare como host, user y clave:
+[mi ip]
+root 
+Soing1214
+
+se esta usando el framwork uikit, cualquier cambio que necesitemos 
+hacer se tiene que hacer directamente en el archivo uikit.css 
+(hablando en terminos de css)
+
+la base de datos mysql se guardara en /.../mysql_server8.0/data
+se guardara en un fichero del mismo nombre que la base de datos en este caso "data_base"
+cada tabla se guarda en un archivo distinto por lo que hay que respaldar el total de la carpeta
